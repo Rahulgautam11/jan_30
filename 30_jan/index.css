@@ -1,0 +1,22 @@
+td {
+  border: none;
+  padding: 10px;
+}
+tr {
+  border: none;
+  padding: 20px;
+}
+
+th {
+  background-color: rgb(16, 17, 15);
+  color: cornsilk;
+  
+}
+tr:nth-child(even) {
+  background-color: rgb(243, 102, 231);
+  color: rgb(64, 14, 248);
+}
+tr:nth-child(odd) {
+  color: rgb(235, 8, 216);
+  background-color: rgb(40, 223, 33);
+}
